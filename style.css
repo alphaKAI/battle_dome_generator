@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400italic);
+body{
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','メイリオ',Verdana,'ＭＳ Ｐゴシック',sans-serif;
+}
+div#main{
+	width:800px;
+	margin: 0 auto;
+}
+div#top{
+	margin:30px 10px 0px 10px;
+	background-color:rgba(245,245,245,0.4);
+}
+span#topja{
+	font-size:30px;
+}
+span#topen{
+	padding:0px 0px 0px 90px;
+	font-size:15px;
+	font-family: 'Old Standard TT', serif;
+}
+span#topname{
+	padding:0px 0px 0px 650px;
+	font-size:12px;
+}
+section.description{
+	margin:40px 0px 0px 0px;
+}
+div#description{
+	background-color:orange;
+	margin:20px 0px 0px 0px;
+	background: -moz-linear-gradient(
+		left,
+		rgba(255,60,42,0.9),
+		rgba(255,145,0,0.8)
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		from(rgba(255,60,42,0.9)),
+		to(rgba(255,145,0,0.8))
+	);
+}
+p.description{
+	margin:20px;
+}
+div.labelbox{
+	width:300px;
+	height:40px;
+	border-style:solid;
+	border-color:#e0e0e0;
+	display:inline-block;
+}
+div.labellb{
+	width:30px;
+	height:40px;
+	background-color:#1cd9db;
+}
+div.labelrb{
+	width:5px;
+	height:40px;
+	margin-left:30px;
+	background-color:#1c6ddb;
+}
+div.dece{
+	width:265px;
+	height:38px;
+	text-align:center;
+	padding-top:3px;
+	color:#1c6ddb;
+	font-size:25px;
+	font-family: 'Old Standard TT', serif;
+}
+div.dec{
+	width:265px;
+	height:38px;
+	text-align:center;
+	padding-top:3px;
+	color:#1c6ddb;
+	font-size:25px;
+}
+div.putstr{
+	width:800px;
+}
+.tarea{
+	border:solid 5px;
+	border-color:#1cd9db;
+}
+.btn{
+	width:100px;
+}
+.ss{
+	width:300px;
+}
+div#footer{
+	width:800px;
+	height:40px;
+	background-color:#7E7E7E;
+}
